@@ -40,3 +40,7 @@ const logTodo = (id: number, title: string, completed: boolean) => {
 
   console.log(str);
 };
+
+//If we compile & build this file with "tsc index.ts" command, then "index.js" file
+//automatically produced. And then we need to execute it by "node index.js".
+//But if we try with "ts-node index.ts", this file executed without producing "index.js"
